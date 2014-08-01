@@ -83,7 +83,7 @@ case $state in
             ;;
 
             done)
-                args=( $back $took $section $remove $date $nodate $archive $editor $noeditor )
+                args=( $back $took $section {-r,--remove}"[Remove @done tag]" $date $nodate $archive $editor $noeditor )
             ;;
 
             finish)
